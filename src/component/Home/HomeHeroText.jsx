@@ -16,7 +16,7 @@ const HomeHeroText = () => {
 
 </h1>
         <p className="text-sm md:text-base  text-white lg:text-lg">
-        Elevate your filmmaking skills with our industry-driven courses. 
+        Empowering Creative Visionaries
         </p>
         <p className='text-red-500 my-2 font-bold'>Your journey to becoming a filmmaker starts here</p>
         <Link to={"/contact"}>

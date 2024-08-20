@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Nav from './component/Nav/Nav';
 import Home from './component/Home/Home';
+import About from './component/About/About';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
     <Nav/>
     <Routes>
   <Route path="/" element={<Home />} />
+  <Route path="/about" element={<About/>} />
   {/* <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />
