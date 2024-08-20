@@ -10,6 +10,8 @@ import Nav from './component/Nav/Nav';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Footer from './component/Footer/Footer';
+import NavTop from './component/Nav/NavTop/NavTop';
+import FooterBottom from './component/Footer/FooterBottom';
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
   {/* <Route path="/contact" element={<Contact/>} /> */}
 </Routes>
 <Footer/>
+<FooterBottom/>
     </Router>
     </div>
   );

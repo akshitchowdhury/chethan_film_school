@@ -20,19 +20,19 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-zinc-950 py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-zinc-950 py-12 lg:h-[460px] md:h-[460px]">
+      <div className="container mx-auto px-4 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Logo and About */}
           <div className="text-white">
             
-            <h1 className=" text-3xl text-left font-semibold ">ABOUT CHETHAN FILM SCHOOL</h1>
+            <h1 className=" text-xl lg:text-3xl md:text-3xl text-left font-semibold ">ABOUT CHETHAN FILM SCHOOL</h1>
             <p className="mb-4 text-left my-4">
               Established in 1992, Chethan Constructions boasts over four decades
               of expertise in delivering unparalleled travel experiences and
               exceptional customer service.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-10 lg:my-28 md:my-12">
               {[faFacebook, faInstagram, faTwitter, faWhatsapp].map((icon, index) => (
                 <FontAwesomeIcon
                   key={index}
@@ -45,7 +45,7 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div className="text-white">
-            <h3 className="font-semibold text-3xl text-center mb-4">QUICK LINKS</h3>
+            <h3 className="font-semibold text-xl lg:text-3xl md:text-3xl text-center mb-4">QUICK LINKS</h3>
             <ul className="space-y-2">
               {['Home', 'About Us', 'Services', 'Careers', 'Contact Us'].map((item, index) => (
                 <li key={index}>
@@ -63,7 +63,7 @@ const Footer = () => {
 
           {/* Column 3: Contact Us */}
           <div className="text-white">
-            <h3 className="text-3xl font-semibold mb-4">CONTACT US</h3>
+            <h3 className="text-xl lg:text-3xl md:text-3xl font-semibold mb-4">CONTACT US</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-amber-400 mt-1 mr-2" />
@@ -84,7 +84,7 @@ const Footer = () => {
 
           {/* Column 4: Quick Contact Form */}
           <div className="text-white">
-            <h3 className="text-3xl font-semibold mb-4">QUICK CONTACT</h3>
+            <h3 className="text-xl lg:text-3xl md:text-3xl font-semibold mb-4">QUICK CONTACT</h3>
             <form>
               {['Name', 'Email', 'Phone'].map((field, index) => (
                 <input
