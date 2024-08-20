@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <>
     <NavTop/>
-    <nav className="bg-gray-950 lg:bg-zinc-950 p-4  ">
+    <nav className="bg-gradient-to-tr from-gray-950 to-black  p-4  ">
       <div className="container mx-auto md:h-[80px] lg:h-[60px] flex justify-between items-center">
         <div className="font-bold flex flex-row items-center">
             <img src={logo} className='w-[120px] h-[100px] py-2'/>

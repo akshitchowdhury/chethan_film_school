@@ -6,13 +6,14 @@ const ServicesDropdown = () => {
 
     return (
       <li 
-        className="relative group text-left z-50"  
-        onMouseEnter={() => setIsOpen(true)} 
+        className="relative group text-center z-50 "  
+         
         // onMouseLeave={() => setIsOpen(false)}
       >
          <Link 
     to="/services" 
-    className="text-zinc-50 font-medium relative hover:text-gray-50 group"
+    onMouseEnter={() => setIsOpen(true)}
+    className="text-zinc-50 font-medium relative  hover:text-gray-50 group"
   >
           COURSES
           <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
