@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavTop from './NavTop/NavTop';
 import logo from "../../assets/logo.png"
+import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
 // import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ const Nav = () => {
             <img src={logo} className='w-[120px] h-[100px] py-2'/>
             
         </div>
-        <div className="hidden md:flex space-x-24">
+        <div className="hidden md:flex space-x-8 items-center">
   <Link 
     to="/" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
@@ -26,6 +27,9 @@ const Nav = () => {
     HOME
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
+
+  <div className="h-6 w-px bg-gray-50"></div>
+
   <Link 
     to="/about" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
@@ -33,30 +37,33 @@ const Nav = () => {
     ABOUT
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
-  
-  {/* <Link 
-    to="/services" 
-    className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
-  >
-    SERVICES
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-  </Link> */}
 
-  {/* <ServicesDropdown/> */}
-  {/* <Link 
+  <div className="h-6 w-px bg-gray-50"></div>
+
+  <ServicesDropdown/>
+
+  <div className="h-6 w-px bg-gray-50"></div>
+
+  <Link 
     to="/gallery" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     GALLERY
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-  </Link> */}
+  </Link>
+
+  <div className="h-6 w-px bg-gray-50"></div>
+
   <Link 
     to="/alumni" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
-    Alumni
+    ALUMNI
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
+
+  <div className="h-6 w-px bg-gray-50"></div>
+
   <Link 
     to="/faq" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
@@ -64,6 +71,9 @@ const Nav = () => {
     FAQ
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
+
+  <div className="h-6 w-px bg-gray-50"></div>
+
   <Link 
     to="/contact" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
@@ -72,6 +82,7 @@ const Nav = () => {
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 </div>
+
 
         <div className="md:hidden flex items-center p-12">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
