@@ -12,6 +12,7 @@ import About from './component/About/About';
 import Footer from './component/Footer/Footer';
 import NavTop from './component/Nav/NavTop/NavTop';
 import FooterBottom from './component/Footer/FooterBottom';
+import Contact from './component/Contact/Contact';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
   <Route path="/demolition" element={<DemolitionDismantle/>} />
   <Route path="/siteprep" element={<SitePreparations/>} /> */}
   
-  {/* <Route path="/contact" element={<Contact/>} /> */}
+  {/*  */}
+  <Route path="/contact" element={<Contact/>} />
 </Routes>
 <Footer/>
 <FooterBottom/>

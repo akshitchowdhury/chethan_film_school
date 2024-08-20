@@ -6,7 +6,7 @@ const ServicesDropdown = () => {
 
     return (
       <li 
-        className="relative group text-center z-50 "  
+        className="relative group text-left z-50 "  
          
         // onMouseLeave={() => setIsOpen(false)}
       >
