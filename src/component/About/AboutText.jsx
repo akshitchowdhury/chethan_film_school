@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AboutText = () => {
   return (
-    <div className="container absolute -my-[30%] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0
+    <div className="container absolute -my-[30%] lg:-my-[0%] md:-my-[0%] md:absolute md:top-[250px]
      lg:absolute lg:right-30 lg:top-[230px]">
       <div className="text-left px-4 md:mx-[43%] lg:w-[600px]">
     
