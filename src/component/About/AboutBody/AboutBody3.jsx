@@ -10,7 +10,7 @@ const AboutBody3 = () => {
           className="w-full rounded-lg mb-4"
         />
         <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-3xl font-bold mb-4">Our Story</h2>
+          <h2 className="text-3xl text-left font-bold mb-4">Our Story</h2>
           <p className="text-lg text-left">
             Chethan Film School was founded with a vision of nurturing creativity and 
             excellence in the world of cinema. We aim to be the premier institution for 
@@ -30,12 +30,17 @@ const AboutBody3 = () => {
             <input className="w-full p-3 mb-3 border rounded" type="tel" placeholder="Phone No." />
             <h3 className="font-bold mb-2">Course of Interest</h3>
             <div className="grid grid-cols-2 gap-2">
-              {['Film Making', 'Photography', 'Interior Design', 'Fashion Design', 
-                'Animation', 'Film Direction', 'Film Editing', 'Cinematography', 
-                'Script Writing', 'Other Course'].map((course) => (
+              {[
+  "Film Making Course",
+  "Film Making Course",
+  "Editing and Visual Effects (VFX)",
+  "Sound Design and Audio Production",
+  "Workshops and Crash Courses",
+  "Online Training and Coaching"
+].map((course) => (
                 <label key={course} className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  <span className="text-sm">{course}</span>
+                  <span className="text-sm text-left">{course}</span>
                 </label>
               ))}
             </div>

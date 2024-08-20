@@ -9,6 +9,8 @@ import {
 import Nav from './component/Nav/Nav';
 import Home from './component/Home/Home';
 import About from './component/About/About';
+import Footer from './component/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
@@ -26,7 +28,7 @@ function App() {
   
   {/* <Route path="/contact" element={<Contact/>} /> */}
 </Routes>
-{/* <Footer/> */}
+<Footer/>
     </Router>
     </div>
   );
