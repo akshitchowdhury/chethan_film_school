@@ -27,17 +27,17 @@ const Footer = () => {
           <div className="text-white">
             
             <h1 className=" text-xl lg:text-3xl md:text-3xl text-left font-semibold ">ABOUT CHETHAN FILM SCHOOL</h1>
-            <p className="mb-4 text-left my-4">
-              Established in 1992, Chethan Constructions boasts over four decades
-              of expertise in delivering unparalleled travel experiences and
-              exceptional customer service.
+            <img src={logo} className="h-[130px] w-[120px]"/>
+            <p className="mb-4 text-left my-2">
+            Established in 2010, Chethan Film Schools has quickly become one of the leading acting schools in Bangalore.
             </p>
-            <div className="flex space-x-10 lg:my-28 md:my-12">
+            
+            <div className="flex space-x-10 lg:my-1 md:my-12">
               {[faFacebook, faInstagram, faTwitter, faWhatsapp].map((icon, index) => (
                 <FontAwesomeIcon
                   key={index}
                   icon={icon}
-                  className="text-2xl hover:text-amber-400 transition duration-300"
+                  className="text-2xl hover:text-red-600 transition duration-300"
                 />
               ))}
             </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                   <Link
                     to={`/${item.toLowerCase().replace(' ', '')}`}
                     onClick={handleClick}
-                    className="hover:text-amber-400 transition duration-300"
+                    className="hover:text-red-600 transition duration-300"
                   >
                     {item}
                   </Link>
@@ -66,16 +66,16 @@ const Footer = () => {
             <h3 className="text-xl lg:text-3xl md:text-3xl font-semibold mb-4">CONTACT US</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-amber-400 mt-1 mr-2" />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-red-600 mt-1 mr-2" />
                 <span className="text-left">53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093</span>
               </li>
               <li className="flex items-center">
-                <FontAwesomeIcon icon={faMobileAlt} className="text-amber-400 mr-2" />
+                <FontAwesomeIcon icon={faMobileAlt} className="text-red-600 mr-2" />
                 <span>+91-98459 56633</span>
               </li>
               <li className="flex items-center">
-                <FontAwesomeIcon icon={faEnvelopeOpen} className="text-amber-400 mr-2" />
-                <a href="mailto:chethancinemas@example.com" className="hover:text-amber-400 transition duration-300">
+                <FontAwesomeIcon icon={faEnvelopeOpen} className="text-red-600 mr-2" />
+                <a href="mailto:chethancinemas@example.com" className="hover:text-red-600 transition duration-300">
                   chethancinemas@example.com
                 </a>
               </li>

@@ -16,7 +16,7 @@ import Contact from './component/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-clip">
       <Router>
     <Nav/>
     <Routes>
