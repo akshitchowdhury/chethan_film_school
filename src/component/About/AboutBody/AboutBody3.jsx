@@ -9,7 +9,7 @@ const AboutBody3 = () => {
           alt="Group photo of students" 
           className="w-full rounded-lg mb-4"
         />
-        <div className="bg-white p-6 rounded-lg shadow">
+        <div className=" p-6 ">
           <h2 className="text-3xl text-left font-bold mb-4">Our Story</h2>
           <p className="text-lg text-left">
             Chethan Film School was founded with a vision of nurturing creativity and 

@@ -35,7 +35,7 @@ const AboutBody = () => {
             Established in 2010, Chethan Film Schools has quickly become one of the <span className="font-bold">leading acting schools in Bangalore.</span>
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Founded by renowned director Chethan Kumar, the school aims to cultivate the next generation of talented actors, directors, and technicians in the film industry.
+            Founded by renowned director Chethan Jodidhar, the school aims to cultivate the next generation of talented actors, directors, and technicians in the film industry.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             The school offers a variety of programs, including advanced acting courses, intensive filmmaking workshops, and specialized training in areas such as Screenwriting, Cinematography, and Film Production.
