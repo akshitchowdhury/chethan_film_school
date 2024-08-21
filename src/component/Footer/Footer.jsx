@@ -13,6 +13,7 @@ import {
   faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/logo.png";
+import { Button } from "@material-tailwind/react";
 
 const Footer = () => {
   const handleClick = () => {
@@ -104,6 +105,7 @@ const Footer = () => {
               >
                 Send Message
               </button>
+              {/* <Button>Button</Button> */}
             </form>
           </div>
         </div>
