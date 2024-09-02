@@ -13,8 +13,9 @@ import Footer from './component/Footer/Footer';
 import NavTop from './component/Nav/NavTop/NavTop';
 import FooterBottom from './component/Footer/FooterBottom';
 import Contact from './component/Contact/Contact';
-
 import Faq from './component/Faq/Faq';
+import FilmMaking from './component/Courses/FilmMaking/FilmMaking';
+
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
+  <Route path="/filmaking" element={<FilmMaking/>} />
   {/* <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />

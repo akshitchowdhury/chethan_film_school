@@ -1,11 +1,11 @@
 import React from 'react'
-import faqBg from "../../assets/aboutBg.jpg"
-const FaqHero = () => {
+import aboutBg from "../../../assets/aboutBg.jpg"
+const FilmMakingHero = () => {
   return (
     
     <div className="relative w-full h-[250px] overflow-hidden">
     <img 
-      src={faqBg} 
+      src={aboutBg} 
       className="object-cover w-full h-full mix-blend-multiply"
       alt="Background Image"
     />
@@ -22,4 +22,4 @@ const FaqHero = () => {
   )
 }
 
-export default FaqHero
+export default FilmMakingHero
