@@ -20,7 +20,8 @@ import EditingAndVfx from './component/Courses/EditngAndVfx/EditngAndVfx';
 import SoundDesignAndAudioProduction from './component/Courses/SoundDesignAndAudioProduction/SoundDesignAndAudioProduction';
 import WorkshopsAndCrashCourses from './component/Courses/WorkshopsAndCrashCourses/WorkshopsAndCrashCourses';
 import OnlineTrainingAndCoaching from './component/Courses/OnlineTrainingAndCoaching/OnlineTrainingAndCoaching';
-
+import Faculty from "./component/Faculty/Faculty"
+import Gallery from './component/Gallery/Gallery';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
   <Route path="/sound" element={<SoundDesignAndAudioProduction/>} />
   <Route path="/workshop" element={<WorkshopsAndCrashCourses/>} />
   <Route path="/online" element={<OnlineTrainingAndCoaching/>} />
+  <Route path="/faculty" element={<Faculty/>} />
+  <Route path="/gallery" element={<Gallery/>} />
   {/* <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />

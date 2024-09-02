@@ -55,7 +55,7 @@ const Nav = () => {
   <div className="h-6 w-px bg-gray-50"></div>
 
   <Link 
-    to="/alumni" 
+    to="/faculty" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     ALUMNI

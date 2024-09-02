@@ -1,5 +1,6 @@
 import React from 'react'
-const SoundDesignText = () => {
+
+const FacultyText = () => {
   return (
     <div>
       <div className="container absolute -my-[30%] lg:-my-[0%] md:-my-[0%] md:absolute md:top-[250px]
@@ -7,8 +8,8 @@ const SoundDesignText = () => {
       <div className="text-left px-4 md:mx-[43%] lg:w-[600px]">
     
     
-        <h1 className="text-3xl uppercase -my-14 md:-my-0 text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
-  Sound Design and audio production Course
+        <h1 className="text-4xl uppercase text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
+  Our Faculty
 </h1>
 {/* <div className='flex flex-row px-12 gap-x-2 md:px-20 md:gap-x-6 '>
         <Link to={"/"} className="text-zinc-50 font-medium relative text-xl hover:text-amber-400 group">
@@ -27,4 +28,4 @@ const SoundDesignText = () => {
   )
 }
 
-export default SoundDesignText
+export default FacultyText
