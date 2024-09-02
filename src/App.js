@@ -18,6 +18,8 @@ import FilmMaking from './component/Courses/FilmMaking/FilmMaking';
 import IntensiveActing from './component/Courses/IntensiveActing/IntensiveActing';
 import EditingAndVfx from './component/Courses/EditngAndVfx/EditngAndVfx';
 import SoundDesignAndAudioProduction from './component/Courses/SoundDesignAndAudioProduction/SoundDesignAndAudioProduction';
+import WorkshopsAndCrashCourses from './component/Courses/WorkshopsAndCrashCourses/WorkshopsAndCrashCourses';
+import OnlineTrainingAndCoaching from './component/Courses/OnlineTrainingAndCoaching/OnlineTrainingAndCoaching';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
   <Route path="/intense" element={<IntensiveActing/>} />
   <Route path="/editing" element={<EditingAndVfx/>} />
   <Route path="/sound" element={<SoundDesignAndAudioProduction/>} />
+  <Route path="/workshop" element={<WorkshopsAndCrashCourses/>} />
+  <Route path="/online" element={<OnlineTrainingAndCoaching/>} />
   {/* <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />
