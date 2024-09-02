@@ -8,8 +8,8 @@ const SoundDesignText = () => {
       <div className="text-left px-4 md:mx-[43%] lg:w-[600px]">
     
     
-        <h1 className="text-4xl uppercase text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
-  Intensive Acting Course
+        <h1 className="text-3xl uppercase -my-14  text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
+  Sound Design and audio production Course
 </h1>
 {/* <div className='flex flex-row px-12 gap-x-2 md:px-20 md:gap-x-6 '>
         <Link to={"/"} className="text-zinc-50 font-medium relative text-xl hover:text-amber-400 group">
