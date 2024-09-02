@@ -15,6 +15,7 @@ import FooterBottom from './component/Footer/FooterBottom';
 import Contact from './component/Contact/Contact';
 import Faq from './component/Faq/Faq';
 import FilmMaking from './component/Courses/FilmMaking/FilmMaking';
+import IntensiveActing from './component/Courses/IntensiveActing/IntensiveActing';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
   <Route path="/filmaking" element={<FilmMaking/>} />
+  <Route path="/intense" element={<IntensiveActing/>} />
   {/* <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />

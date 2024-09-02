@@ -1,7 +1,12 @@
 import React from 'react';
 import banner from "../../../assets/filmMakingBanner.webp"
+import FilmMakingHero from './FilmMakingHero';
+import FilmMakingText from './FimMakingText';
 export default function FilmMaking() {
   return (
+    <>
+    <FilmMakingHero/>
+    <FilmMakingText/>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="lg:flex lg:items-start text-justify lg:space-x-8">
         <div className="lg:w-2/3">
@@ -83,5 +88,6 @@ export default function FilmMaking() {
         </div>
       </div>
     </div>
+    </>
   );
 }

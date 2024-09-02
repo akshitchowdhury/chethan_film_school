@@ -29,7 +29,7 @@ const ServicesDropdown = () => {
               </Link>
             </li>
             <li>
-            <Link to={"/acting"} className="block px-4 py-2 text-gray-700 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/intense"} className="block px-4 py-2 text-gray-700 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
               
               Intensive Acting Course
               </Link>

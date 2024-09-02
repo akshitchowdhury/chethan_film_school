@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FilmMaking from './FilmMaking';
+import IntensiveActing from './IntensiveActing';
 
-const FilmMakingText = () => {
+const IntensiveActingText = () => {
   return (
     <div className="container absolute -my-[30%] lg:-my-[0%] md:-my-[0%] md:absolute md:top-[250px]
      lg:absolute lg:right-30 lg:top-[230px]">
       <div className="text-left px-4 md:mx-[43%] lg:w-[600px]">
     
     
-      <h1 className="text-4xl uppercase text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
-  FILM MAKING COURSE 
+        <h1 className="text-4xl uppercase text-white font-bold mb-2  md:text-4xl md:-mx-11 text-left">
+  Intensive Acting Course
 </h1>
 {/* <div className='flex flex-row px-12 gap-x-2 md:px-20 md:gap-x-6 '>
         <Link to={"/"} className="text-zinc-50 font-medium relative text-xl hover:text-amber-400 group">
@@ -28,4 +28,4 @@ const FilmMakingText = () => {
   );
 }
 
-export default FilmMakingText;
+export default IntensiveActingText;
