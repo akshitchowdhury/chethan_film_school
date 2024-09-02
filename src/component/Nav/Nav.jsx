@@ -25,7 +25,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     HOME
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   <div className="h-6 w-px bg-gray-50"></div>
@@ -35,7 +35,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     ABOUT
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   <div className="h-6 w-px bg-gray-50"></div>
@@ -49,7 +49,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     GALLERY
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   <div className="h-6 w-px bg-gray-50"></div>
@@ -59,7 +59,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     ALUMNI
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   <div className="h-6 w-px bg-gray-50"></div>
@@ -69,7 +69,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     FAQ
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   <div className="h-6 w-px bg-gray-50"></div>
@@ -79,7 +79,7 @@ const Nav = () => {
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
     CONTACT US
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 </div>
 

@@ -5,8 +5,8 @@ const ServicesDropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <li 
-        className="relative group text-left z-50 "  
+      <p 
+        className="relative group text-center z-50 "  
          
         // onMouseLeave={() => setIsOpen(false)}
       >
@@ -16,7 +16,7 @@ const ServicesDropdown = () => {
     className="text-zinc-50 font-medium relative  hover:text-gray-50 group"
   >
           COURSES
-          <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-gray-50 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+          <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
           </Link>
   
         {/* Dropdown Menu */}
@@ -61,7 +61,7 @@ const ServicesDropdown = () => {
            
           </ul>
         )}
-      </li>
+      </p>
     );
 }
 
