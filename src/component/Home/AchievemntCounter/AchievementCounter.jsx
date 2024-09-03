@@ -21,15 +21,15 @@ const AchievementCounter = () => {
     <div className="bg-gray-800 rounded-lg py-10">
       <div className="max-w-screen-xl mx-auto text-center">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-4">
-          <div className="text-center text-white">
+          <div className="text-center text-white border-r border-gray-500 last:border-none">
             <p className="text-5xl font-bold">{faculty}+</p>
             <p className="text-lg mt-2">Faculty</p>
           </div>
-          <div className="text-center text-white">
+          <div className="text-center text-white border-r border-gray-500 last:border-none">
             <p className="text-5xl font-bold">{shortFilms}+</p>
             <p className="text-lg mt-2">Short Films</p>
           </div>
-          <div className="text-center text-white">
+          <div className="text-center text-white border-r border-gray-500 last:border-none">
             <p className="text-5xl font-bold">{theaterProductions}+</p>
             <p className="text-lg mt-2">Theater Productions</p>
           </div>
