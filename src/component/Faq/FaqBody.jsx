@@ -74,10 +74,11 @@ const FaqBody = () => {
             {faqs.map((faq, index) => (
               <div key={index} className="mb-4">
                 <button
-                  className="flex justify-between items-center w-full p-4 bg-gray-100 hover:bg-gray-200 transition-colors duration-300 rounded-lg focus:outline-none"
+                  className="flex justify-between items-center w-full p-4 bg-gray-100 hover:bg-red-500
+               transition-colors duration-300 rounded-lg focus:outline-none"
                   onClick={() => toggleAccordion(index)}
                 >
-                  <span className="text-left font-semibold text-2xl">{faq.question}</span>
+                  <span className="text-left font-semibold text-lg md:text-2xl ">{faq.question}</span>
                   <svg
                     className={`w-6 h-6 transition-transform duration-300 ${
                       openIndex === index ? 'transform rotate-180' : ''
@@ -95,7 +96,7 @@ const FaqBody = () => {
                   style={{ maxHeight: '0px' }}
                 >
                   <div className="p-4 bg-white border border-gray-200 rounded-b-lg">
-                    <p className="text-gray-700 text-left">{faq.answer}</p>
+                    <p className="text-gray-700  text-left">{faq.answer}</p>
                   </div>
                 </div>
               </div>

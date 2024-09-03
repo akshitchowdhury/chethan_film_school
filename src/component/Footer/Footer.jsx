@@ -48,14 +48,27 @@ const Footer = () => {
           <div className="text-white">
             <h3 className="font-semibold text-xl lg:text-3xl md:text-3xl text-center mb-4">QUICK LINKS</h3>
             <ul className="space-y-2">
-              {['Home', 'About Us', 'Services', 'Careers', 'Contact Us'].map((item, index) => (
+              {[
+                {name: "home",
+                url: "/home"},
+                {name: "about",
+                url: "/about"},
+                {name: "gallery",
+                url: "/gallery"},
+                {name: "alumni",
+                url: "/alumni"},
+                {name: "faq",
+                url: "/faq"},
+                {name: "contact",
+                url: "/contact"},
+              ].map((item, index) => (
                 <li key={index}>
                   <Link
-                    to={`/${item.toLowerCase().replace(' ', '')}`}
+                    to={item.url}
                     onClick={handleClick}
                     className="hover:text-red-600 transition duration-300"
                   >
-                    {item}
+                   <p className="uppercase"> {item.name}</p>
                   </Link>
                 </li>
               ))}

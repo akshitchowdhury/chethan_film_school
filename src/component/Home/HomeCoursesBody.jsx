@@ -44,6 +44,9 @@ const courses = [
 ];
 
 export default function HomeCoursesBody() {
+    const handleClick = () => {
+        window.scrollTo({ behavior: 'smooth', top: "0" });
+      };
   return (
     <div className="container mx-auto p-4 text-white">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -69,7 +72,9 @@ export default function HomeCoursesBody() {
               {/* Course description - hidden by default, appears on hover */}
               <div className="absolute inset-0 flex flex-col items-start justify-center p-4 transition-opacity duration-300 opacity-0 group-hover:opacity-100">
     <p className="text-base md:text-lg font-medium text-white text-justify mb-4 px-2">{course.description}</p>
-    <button className="bg-black text-white py-2 px-4 rounded-md hover:bg-red-500 transition-colors duration-300">
+    <button
+    onClick={handleClick}
+     className="bg-black text-white py-2 px-4 rounded-md hover:bg-red-500 transition-colors duration-300">
       <Link to={course.url} className="block">
         Learn More
       </Link>
