@@ -14,12 +14,12 @@ const ContactBody = () => {
             <div className="w-[400px] h-[2px] bg-gray-500"></div>
             
             
-            <p className="text-zinc-950 mt-4">
+            <p className="text-zinc-950 mt-4 text-justify leading-relaxed">
               Join our vibrant community of filmmakers and explore your passion for visual storytelling 
               <br/>
               <span className='my-4'>with Chethan Cinemas.</span> 
             </p>
-            <p>Let us empower you to turn your creative vision into cinematic reality!</p>
+            <p className='leading-relaxed text-justify'>Let us empower you to turn your creative vision into cinematic reality!</p>
           </div>
 
           <img src={contact} className="h-[300px] my-6" alt="Contact" />

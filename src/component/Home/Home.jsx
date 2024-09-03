@@ -5,6 +5,7 @@ import AboutBody from '../About/AboutBody/AboutBody'
 import HomeAbout from './HomeAbout'
 import Contact from '../Contact/Contact'
 import ContactBody from '../Contact/ContactBody'
+import HomeCourses from './HomeCourses'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <div className='p-8'>
          <AchievementCounter/>     
          </div>
+         <HomeCourses/>
          <ContactBody/>
     </div>
   )

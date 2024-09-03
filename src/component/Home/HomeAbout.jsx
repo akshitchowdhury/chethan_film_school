@@ -45,13 +45,13 @@ const HomeAbout = () => {
         <div className="w-full lg:w-1/2 text-justify">
           <h3 className="text-red-600 text-xl font-semibold mb-4 flex items-center">
             About
-            <span className="ml-2 px-2 py-1 bg-amber-400 text-white rounded">
+            <span className="ml-2  px-2 py-1 bg-amber-400 text-white rounded">
               Chethan Film School
             </span>
             <span className="ml-2 w-10 h-[2px] bg-red-600"></span>
           </h3>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Welcome to <span className="text-red-500">Chethan Film School</span>
+            Welcome to <span className="text-red-500 text-3xl">Chethan Film School</span>
           </h2>
           <p className="text-gray-700 text-base leading-relaxed mb-4">
             Established in 2010, Chethan Film Schools has quickly become one of the
