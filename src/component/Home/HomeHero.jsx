@@ -10,7 +10,7 @@ import HomeHeroText from './HomeHeroText';
 const HomeHero = () => {
   return (
     <>  
-     <div className="relative w-auto md:w-full h-[300px] md:h-[500px] lg:h-[500px] ">
+     <div className="relative w-auto  lg:w-full h-[300px] md:h-[500px] lg:h-[500px] ">
       <Carousel
         autoPlay
         infiniteLoop
