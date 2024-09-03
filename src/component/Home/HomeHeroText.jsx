@@ -21,9 +21,9 @@ const HomeHeroText = () => {
         </p>
         <p className='text-red-500 my-2 font-bold flex flex-wrap'>Your journey to becoming a filmmaker starts <br/>here</p>
         <Link to={"/contact"}>
-        <button className="w-44 h-12 max-w-xs px-4 py-2  bg-gray-50  text-zinc-950 
+        <button className="w-44 h-[58px] max-w-xs px-4 py-2  bg-gray-50  text-zinc-950 
         hover:text-white font-bold rounded-md
-         shadow-md hover:bg-amber-400 focus:outline-none 
+         shadow-md hover:bg-red-500 focus:outline-none 
          focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50 transition duration-300 ease-in-out">
   
   Apply Now
