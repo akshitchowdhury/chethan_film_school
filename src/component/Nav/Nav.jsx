@@ -41,6 +41,8 @@ const Nav = () => {
   <div className="h-6 w-px bg-gray-50"></div>
 
   <ServicesDropdown/>
+  <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+        
 
   <div className="h-6 w-px bg-gray-50"></div>
 
@@ -93,8 +95,9 @@ const Nav = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
-          <Link onClick={ handleClick} to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
+        <div className="md:hidden text-left">
+          <Link onClick={ handleClick} to="/" className="block text-white hover:text-gray-300 p-2">Home
+          </Link>
           <Link onClick={ handleClick} to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
           <ServicesDropdown/>
           <Link onClick={ handleClick} to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
