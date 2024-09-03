@@ -66,7 +66,7 @@ export default function ServicesDropdown() {
           <li>
             <Link 
               to="/filmaking" 
-              className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-amber-400 hover:text-white transition-colors duration-200"
+              className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200"
               role="menuitem"
               onClick={() => setIsOpen(false)}
             >
@@ -74,27 +74,27 @@ export default function ServicesDropdown() {
             </Link>
           </li>
           <li>
-            <Link to={"/intense"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/intense"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200">
               Intensive Acting Course
             </Link>
           </li>
           <li>
-            <Link to={"/editing"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/editing"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200">
               Editing and Visual Effects
             </Link>
           </li>
           <li>
-            <Link to={"/sound"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/sound"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200">
               Sound Design and Audio Production
             </Link>
           </li>
           <li>
-            <Link to={"/workshop"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/workshop"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200">
               Workshops and Crash Courses
             </Link>
           </li>
           <li>
-            <Link to={"/online"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-yellow-500 hover:text-white transition-colors duration-200">
+            <Link to={"/online"} className="block px-4 py-2 text-gray-50 md:text-zinc-950 hover:bg-red-500 hover:text-white transition-colors duration-200">
               Online Training and Coaching
             </Link>
           </li>
