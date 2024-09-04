@@ -60,7 +60,7 @@ const Nav = () => {
     to="/faculty" 
     className="text-zinc-50 font-medium relative hover:hover:text-gray-50 group"
   >
-    ALUMNI
+    FACULTY
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
@@ -101,6 +101,8 @@ const Nav = () => {
           <Link onClick={ handleClick} to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
           <ServicesDropdown/>
           <Link onClick={ handleClick} to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
+          <Link onClick={ handleClick} to="/faculty" className="block text-white hover:text-gray-300 p-2">Faculty</Link>
+          <Link onClick={ handleClick} to="/faq" className="block text-white hover:text-gray-300 p-2">Faq</Link>
           <Link onClick={ handleClick} to="/contact" className="block text-white hover:text-gray-300 p-2">Contact Us</Link>
         </div>
       )}
