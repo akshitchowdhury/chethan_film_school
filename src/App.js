@@ -51,7 +51,7 @@ function App() {
   <Route path="/contact" element={<Contact/>} />
 </Routes>
 <Footer/>
-<FooterBottom/>
+{/* <FooterBottom/> */}
     </Router>
     </div>
   );
